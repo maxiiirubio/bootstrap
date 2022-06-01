@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+.header{
+    background-color: black;
+    min-height: 80px;
+}
+#barra-estilo{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Tapestry', cursive;
+}
+#barra-estilo:hover{
+    color: orangered;
+    font-size: 22px;
+}
+#logo{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 900;
+    font-family: 'Tapestry', cursive;
+}
+#logoSpan{
+    color: orangered;
+}
+.barra{
+    justify-content: end;
+}
+.main{
+    min-height: calc(100vh - 100px);
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    width: 100%;
+    /* background-color: red; */
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo1{
+    height: 120px;
+    max-width: 600px;
+    background-color: orangered;
+    border: 5px solid black;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+.titulo2{
+    height: 80px;
+    max-width: 500px;
+    background-color: orangered;
+    border: 5px solid black;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1,8rem;
+    font-weight: 900;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+.footer{
+    background-color: black;
+    height: 20px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+.section{
+    min-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.contFoto{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+.foto{
+    border-radius: 180px;
+    width: 250px;
+    border: 5px solid black;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.redes{
+    /* background-color: red; */
+    font-size: 30px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+.redes a{
+    color: black;
+}
+.redes a:hover{
+    color: orangered;
+    font-size: 32px;
+}
+.perfilTexto{
+    /* background-color: yellow; */
+    padding: 60px;
+}
+.perfilTexto i{
+    color: orangered;
+    font-size: 70px;
+    text-align: left;
+    margin-right: 50px;
+}
+.textoPerfil1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Tapestry', cursive;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.textoPerfil2{
+    color: rgb(20, 20, 20);
+    text-align: justify;
+    font-weight: 500;
+}
+.tituloCurriculum{
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Tapestry', cursive;
+}
+.tituloCurriculum span{
+    color: black;
+    margin-left: 50px;
+}
+.divCurriculum1{
+    /* background-color: aqua; */
+    padding: 20px;
+}
+.divCurriculum1 i{
+    color: orangered;
+    margin-right: 20px;
+    font-size: 35px;
+}
+.divCurriculum1 h3{
+    font-weight: 700;
+    color: black;
+}
+.divCurriculum1 p{
+    color: rgb(78, 77, 77);
+    text-align: justify;
+}
+.divCurriculum2{
+    /* background-color: aqua; */
+    padding: 20px;
+}
+.divCurriculum2 i{
+    color: orangered;
+    margin-right: 20px;
+    font-size: 35px;
+}
+.divCurriculum2 h3{
+    font-weight: 700;
+    color: black;
+}
+.divCurriculum2 p{
+    color: rgb(78, 77, 77);
+    text-align: justify;
+}
+.divCurriculum3{
+    /* background-color: aqua; */
+    padding: 20px;
+}
+.divCurriculum3 i{
+    color: orangered;
+    margin-right: 20px;
+    font-size: 35px;
+}
+.divCurriculum3 h3{
+    font-weight: 700;
+    color: black;
+}
+.divCurriculum3 p{
+    color: rgb(78, 77, 77);
+    text-align: justify;
+}
+.divCurriculum4{
+    /* background-color: aqua; */
+    padding: 20px;
+}
+.divCurriculum4 i{
+    color: orangered;
+    margin-right: 20px;
+    font-size: 35px;
+}
+.divCurriculum4 h3{
+    font-weight: 700;
+    color: black;
+}
+.divCurriculum4 p{
+    color: rgb(78, 77, 77);
+    text-align: justify;
+}
+/* .divCurriculum2{
+    background-color: aqua;
+}
+.divCurriculum3{
+    background-color: aqua;
+}
+.divCurriculum4{
+    background-color: aqua;
+} */
